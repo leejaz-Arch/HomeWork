@@ -5,20 +5,20 @@ public class Main {
 
         System.out.println("Домашнее задание №3");
 
-        System.out.println("Задание№1" );
+        System.out.println("Задание№1");
 
-         byte tea = -24;
-         short lea = 24567;
-         int dog = 55000;
-         long cat = 9000000L;
-         float sus = 45.12f;
-         double sas = 55.1253;
+        byte tea = -24;
+        short lea = 24567;
+        int dog = 55000;
+        long cat = 9000000L;
+        float sus = 45.12f;
+        double sas = 55.1253;
         System.out.println("Значение переменной tea с типом byte равно " + tea);
-        System.out.println("Значение переменной lea с типом short равно " +lea);
-        System.out.println("Значение переменной dog с типом int равно " +dog);
-        System.out.println("Значение переменной cat с типом long равно " +cat);
-        System.out.println("Значение переменной sus с типом float равно " +sus);
-        System.out.println("Значение переменной sas с типом double равно " +sas);
+        System.out.println("Значение переменной lea с типом short равно " + lea);
+        System.out.println("Значение переменной dog с типом int равно " + dog);
+        System.out.println("Значение переменной cat с типом long равно " + cat);
+        System.out.println("Значение переменной sus с типом float равно " + sus);
+        System.out.println("Значение переменной sas с типом double равно " + sas);
 
         System.out.println("Задание№2");
         float x = 27.12f;
@@ -28,21 +28,21 @@ public class Main {
         short t = -159;
         int e = 27897;
         byte r = 67;
-        System.out.println("Значение переменной x с типом float равно " +x);
-        System.out.println("Значение переменной a с типом long равно " +a);
-        System.out.println("Значение переменной q с типом double равно " +q);
-        System.out.println("Значение переменной w с типом short равно " +w);
-        System.out.println("Значение переменной t с типом short равно " +t);
-        System.out.println("Значение переменной e с типом int равно " +e);
-        System.out.println("Значение переменной r с типом byte равно " +r);
+        System.out.println("Значение переменной x с типом float равно " + x);
+        System.out.println("Значение переменной a с типом long равно " + a);
+        System.out.println("Значение переменной q с типом double равно " + q);
+        System.out.println("Значение переменной w с типом short равно " + w);
+        System.out.println("Значение переменной t с типом short равно " + t);
+        System.out.println("Значение переменной e с типом int равно " + e);
+        System.out.println("Значение переменной r с типом byte равно " + r);
 
         System.out.println("задача№3");
         byte lpStudent = 23;
         byte asStudent = 27;
         byte eaStudent = 30;
         short totalSheets = 480;
-        int sheetsOnStudent = totalSheets / (lpStudent + asStudent+ eaStudent);
-        System.out.println("На каждого ученика расчитанно " + sheetsOnStudent + " листов бумаги" );
+        int sheetsOnStudent = totalSheets / (lpStudent + asStudent + eaStudent);
+        System.out.println("На каждого ученика расчитанно " + sheetsOnStudent + " листов бумаги");
 
         System.out.println("Задача№4");
         byte work1 = 20;
@@ -50,7 +50,7 @@ public class Main {
         short work3 = 1440 * 3;
         int work4 = 1440 * 30;
 
-        byte bottleIn1Minutes = 16/2;
+        byte bottleIn1Minutes = 16 / 2;
 
         int quantityBottleIn20Min = bottleIn1Minutes * work1;
         int quantityBottleIn1Day = bottleIn1Minutes * work2;
@@ -87,29 +87,29 @@ public class Main {
         byte weight1EggInGrams = 70;
 
         int totalWeightBananas = banans * weight1BananInGrams;
-        int totalWeightMilk = milkInMilliliters/2 * gramsIn100MillilitersOfMilk;
+        int totalWeightMilk = milkInMilliliters / 2 * gramsIn100MillilitersOfMilk;
         int totalWeightIceCream = iceCreamBriquettes * weight1BriquetteInGrams;
         int totalWeightRawEggs = rawEggs * weight1EggInGrams;
         int totalWeightBreakfastInGrams = totalWeightBananas + totalWeightMilk + totalWeightIceCream + totalWeightRawEggs;
-        float totalWeightBreakfastInKilograms = totalWeightBreakfastInGrams/1000f;
+        float totalWeightBreakfastInKilograms = totalWeightBreakfastInGrams / 1000f;
 
         System.out.println("Вес завтрака в граммах = " + totalWeightBreakfastInGrams + " грамм");
         System.out.println("Вес завтрака в килограммах = " + totalWeightBreakfastInKilograms + " килограмм");
 
         System.out.println("Задача№7");
         byte weightNeedToLoseInKilogram = 7;
-        short gramInKilorgram = 1000;
-        int totalWeightNeedToLoseInGrams = weightNeedToLoseInKilogram * gramInKilorgram;
+        short gramInKilogram = 1000;
+        int totalWeightNeedToLoseInGrams = weightNeedToLoseInKilogram * gramInKilogram;
 
         short firstWayLoseWeightPerDayInGrams = 250;
         short secondWayLoseWeightPerDayInGrams = 500;
-        int firstLoseWeightProgram = totalWeightNeedToLoseInGrams/firstWayLoseWeightPerDayInGrams;
-        int secondLoseWeightProgram = totalWeightNeedToLoseInGrams/secondWayLoseWeightPerDayInGrams;
+        int firstLoseWeightProgram = totalWeightNeedToLoseInGrams / firstWayLoseWeightPerDayInGrams;
+        int secondLoseWeightProgram = totalWeightNeedToLoseInGrams / secondWayLoseWeightPerDayInGrams;
 
         System.out.println("Нужно " + firstLoseWeightProgram + " дней чтобы похудеть, сбрасывая по 250 грамм в день");
         System.out.println("Нужно " + secondLoseWeightProgram + "дней чтобы похудеть, сбрасывая по 500 грамм в день");
 
-        int daysNeedToLoseWeightInAverage = (firstLoseWeightProgram + secondLoseWeightProgram)/2;
+        int daysNeedToLoseWeightInAverage = (firstLoseWeightProgram + secondLoseWeightProgram) / 2;
         System.out.println("В среднем нужно " + daysNeedToLoseWeightInAverage + " дней чтобы похудеть");
 
         System.out.println("Задача№8");
@@ -135,14 +135,6 @@ public class Main {
         System.out.println("Маша теперь получает " + mashaIncreasedSalary + " рублей в месяц. Годовой доход вырос на " + mashaDifferenceInAnnualSalaries + " рублей.");
         System.out.println("Денис теперь получает " + denisIncreasedSalary + " рублей в месяц. Годовой доход вырос на " + denisDifferenceInAnnualSalaries + " рублей");
         System.out.println("Кристина теперь получает " + kristinaIncreasedSalary + " рублей в месяц. Годовой доход вырос на " + kristinaDifferenceInAnnualSalaries + " рублей");
-
-
-
-
-
-
-
-
 
 
     }
